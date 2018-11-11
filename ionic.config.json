@@ -1,0 +1,8 @@
+{
+  "name": "U4Uapptest",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "e8fd9032"
+}

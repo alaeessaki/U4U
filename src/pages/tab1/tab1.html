@@ -1,0 +1,54 @@
+<!--
+  Generated template for the Tab1Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="red">
+    <ion-title>Santé</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+  <ion-item (click)="goToHospital()">
+    <ion-avatar item-start>
+      <img src="../assets/imgs/hospital-buildings.png">
+    </ion-avatar>
+    <h2><strong>Hopital</strong></h2>
+    <ion-icon ios="ios-arrow-round-forward" md="md-arrow-round-forward" item-end></ion-icon>
+  </ion-item>
+  <ion-item (click)="goToClinique()">
+    <ion-avatar item-start>
+      <img src="../assets/imgs/bed (1).png">
+    </ion-avatar>
+    <h2><strong>Clinique</strong></h2>
+    <ion-icon ios="ios-arrow-round-forward" md="md-arrow-round-forward" item-end></ion-icon>
+  </ion-item>
+  <ion-item (click)="goToPharma()">
+    <ion-avatar item-start>
+      <img src="../assets/imgs/medicine.png">
+    </ion-avatar>
+    <h2><strong>Pharmacie</strong></h2>
+    <ion-icon ios="ios-arrow-round-forward" md="md-arrow-round-forward" item-end></ion-icon>
+  </ion-item>
+  <ion-item (click)="goToLam()">
+    <ion-avatar item-start>
+      <img src="../assets/imgs/blood-sample.png">
+    </ion-avatar>
+    <h2><strong>Laboratoire d'analyse médicale</strong></h2>
+    <ion-icon ios="ios-arrow-round-forward" md="md-arrow-round-forward" item-end></ion-icon>
+  </ion-item>
+  <ion-item (click)="goToDentistes()">
+    <ion-avatar item-start>
+      <img src="../assets/imgs/tooth.png">
+    </ion-avatar>
+    <h2><strong>Dentiste</strong></h2>
+    <ion-icon ios="ios-arrow-round-forward" md="md-arrow-round-forward" item-end></ion-icon>
+  </ion-item>
+
+  </ion-list>
+</ion-content>
